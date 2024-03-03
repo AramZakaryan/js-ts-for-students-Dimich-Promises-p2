@@ -87,12 +87,24 @@
 // setTimeout((data1, data2, data3)=>console.log(data1, data2, data3), 1000, "hura1", "hura2", "hura3")
 
 
-let pr = new Promise((res, rej) => {
-    rej("some error")
-});
+// let pr = new Promise((res, rej) => {
+//     rej("some error")
+// });
+//
+// let pr2 = new Promise((res, rej) => {
+//     rej("some error2")
+// });
+//
+// window.addEventListener("unhandledrejection", (err) => console.error(err))
 
-let pr2 = new Promise((res, rej) => {
-    rej("some error2")
-});
-    
-window.addEventListener("unhandledrejection", (err) => console.error(err))
+
+// console.log(1)
+// console.log(2)
+// let pr = new Promise((res) => {
+//     console.log(2.1)
+//     res();
+//     console.log(2.2)
+// })
+// pr.then(() => console.log(4))
+// console.log(3);
+
